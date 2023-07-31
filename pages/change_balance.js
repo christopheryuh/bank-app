@@ -20,12 +20,12 @@ function ChangeBalance(){
     return (
         <div>
         <h1>Change Your Balance</h1>
-        <a id="links" href="/">Home</a>
+        <Link id="links" href="/">Home</Link>
         <br></br>
         <h3>Enter Account Name</h3>
         <input id="input1"value={name} onChange={e => setName(e.target.value)}></input><br></br>
         <button id="button" onClick={() => load_balance(name)}>Click to load/reload your balance</button>
-        <p>If nothing happens when you load your balance, make sure your account name is exists and is spelled correctly.</p>
+        <p>If nothing happens when you load your balance, make sure your account name exists and is spelled correctly.</p>
         <p>Current Balance:{balance}</p>    
 
         <DepositWithdraw balance={balance} name={name}></DepositWithdraw>

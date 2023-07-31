@@ -5,7 +5,7 @@ export default function Main(){
     return (
         <div>
         <h1>Make An Account</h1>
-        <a href="/">Back Home</a>
+        <Link href="/">Back Home</Link>
         <br></br>
         <br></br>
             <Send></Send>
