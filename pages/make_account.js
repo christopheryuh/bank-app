@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import Link from "next/link"
 import { createClient } from '@supabase/supabase-js'
 
 export default function Main(){
